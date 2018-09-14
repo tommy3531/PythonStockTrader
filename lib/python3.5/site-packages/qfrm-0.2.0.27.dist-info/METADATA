@@ -1,0 +1,36 @@
+Metadata-Version: 2.0
+Name: qfrm
+Version: 0.2.0.27
+Summary: Quantitative Financial Risk Management: awesome OOP tools for measuring, managing and visualizing risk of financial instruments and portfolios.
+Home-page: http://oleg.rice.edu/stat-449-649-fall-2015/
+Author: Oleg Melnikov
+Author-email: xisreal@gmail.com
+License: LICENSE.txt
+Keywords: finance risk management bond duration yield curve duration PVCF present value of cash flows IRR TVM NPV interest rate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Requires-Dist: matplotlib (>=1.4)
+Requires-Dist: numpy (>=1.9)
+Requires-Dist: pandas (>=0.16)
+Requires-Dist: scipy (>=0.16)
+Requires-Dist: statistics (>=1.0.3)
+
+UNKNOWN
+
+
