@@ -1,3 +1,5 @@
+Library
+
 quandl 3.3.0
 matplotlib 2.1.1
 numpy 1.14.0
@@ -9,3 +11,11 @@ pytrends 4.3.0
 pip install finance
 pip install qfrm
 pip install plotly
+
+pip install pandas-datareader
+pip install beautifulsoup4
+pip install sklearn
+
+Doc links
+https://github.com/addisonlynch/iexfinance
+
