@@ -15,7 +15,18 @@ pip install plotly
 pip install pandas-datareader
 pip install beautifulsoup4
 pip install sklearn
+pip install pyfin
+
+Need to install
+pip install afterhours
+pip install zipline
 
 Doc links
 https://github.com/addisonlynch/iexfinance
-
+https://www.alphavantage.co/documentation/
+https://api.tiingo.com/docs/general/overview
+https://iextrading.com/developer/docs/#usage
+http://docs.enigma.com/public/public_v20_api_about.html
+https://github.com/datawrestler/after-hours
+http://www.zipline.io/
+http://www.bruunisejs.dk/PythonHacks/
