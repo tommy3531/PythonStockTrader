@@ -1,3 +1,7 @@
+# StockTrader
+
+Point of stock trader is to learn about trader stocks and how the stock markets works
+
 # Library
 
 1. quandl 3.3.0
@@ -29,12 +33,21 @@
 7. http://www.zipline.io/
 8. http://www.bruunisejs.dk/PythonHacks/
 
-# Key Terms
-1.Call Options -
-2.Put Options -
+# Pandas-dataReader
+
+Remote data access for pandas, access to data from Robinhood, Alpha Vantage, Enigma, Quandl, TSP
+
 
 # Pandas Information
 
 # Matplot Information
 
-#
+# Basic Terms
+1. Call Options -
+2. Put Options -
+3. Open - Price of one share when the stock market opens
+4. High - Highest value of stock throughout the day
+5. Low - Lowest value of stock throughout the day
+6. Close - Final price of stock when the market closes
+7. Volume - How many shares were traded
+8. Adjusted Close - Stock split
