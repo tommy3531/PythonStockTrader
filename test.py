@@ -10,8 +10,10 @@ from os.path import join, dirname
 from dotenv import load_dotenv
 
 from Stocks.YahooStock import get_yahoo_stock_data
+from Stocks.YahooStockGraph import graph_yahoo_multi_stock
 
-get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
+data = get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
+graph_yahoo_multi_stock(data)
 
 
 # style.use('ggplot')
