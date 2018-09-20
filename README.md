@@ -40,7 +40,10 @@ Remote data access for pandas, access to data from Robinhood, Alpha Vantage, Eni
 
 # Pandas Information
 
-# Matplot Information
+# Matplotlib Information
+
+1. .rolling
+2. subplot2grid - READUP on how this works
 
 # Basic Terms
 1. Call Options -
@@ -51,4 +54,5 @@ Remote data access for pandas, access to data from Robinhood, Alpha Vantage, Eni
 6. Close - Final price of stock when the market closes
 7. Volume - How many shares were traded
 8. Adjusted Close - Stock split
-9. Moving Averages -
+9. Moving Averages - take current prices and prices from x days add them up divide by x days
+10.
