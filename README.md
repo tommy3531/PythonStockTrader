@@ -16,18 +16,18 @@
 14. pip install pyfin
 
 # Need to install
-1.pip install afterhours
-2.pip install zipline
+1. pip install afterhours
+2. pip install zipline
 
 # Doc links
-1.https://github.com/addisonlynch/iexfinance
-2.https://www.alphavantage.co/documentation/
-3.https://api.tiingo.com/docs/general/overview
-4.https://iextrading.com/developer/docs/#usage
-5.http://docs.enigma.com/public/public_v20_api_about.html
-6.https://github.com/datawrestler/after-hours
-7.http://www.zipline.io/
-8.http://www.bruunisejs.dk/PythonHacks/
+1. https://github.com/addisonlynch/iexfinance
+2. https://www.alphavantage.co/documentation/
+3. https://api.tiingo.com/docs/general/overview
+4. https://iextrading.com/developer/docs/#usage
+5. http://docs.enigma.com/public/public_v20_api_about.html
+6. https://github.com/datawrestler/after-hours
+7. http://www.zipline.io/
+8. http://www.bruunisejs.dk/PythonHacks/
 
 # Key Terms
 1.Call Options -
