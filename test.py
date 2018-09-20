@@ -9,15 +9,16 @@ import os
 from os.path import join, dirname
 from dotenv import load_dotenv
 
-from Stocks.YahooStock import get_yahoo_stock_data, get_yahoo_single_stock
-from Stocks.YahooStockGraph import graph_yahoo_multi_stock, graph_yahoo_stock_high
+from Stocks.YahooStock import get_yahoo_stock_data, get_yahoo_single_stock, yahoo_moving_average
+from Stocks.YahooStockGraph import graph_yahoo_multi_stock, graph_yahoo_stock_high, graph_yahoo_moving_average
 
 # data = get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
 # # print(data)
 # graph_yahoo_multi_stock(data)
 single_data = get_yahoo_single_stock('fb')
-graph_yahoo_stock_high(single_data)
-
+# graph_yahoo_stock_high(single_data)
+df = yahoo_moving_average(single_data)
+graph_yahoo_moving_average(df)
 
 
 

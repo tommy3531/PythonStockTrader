@@ -26,3 +26,19 @@ def graph_yahoo_stock_high(data_frame):
     plt.title('Stock data from 2016 to present')
     plt.legend()
     plt.show()
+
+
+def graph_yahoo_moving_average(df):
+    style.use('ggplot')
+
+    df.reset_index(inplace=True)
+    df.set_index("Date", inplace=True)
+
+    ax1 = plt.subplot2grid((6, 1), (0, 0), rowspan=5, colspan=1)
+    ax2 = plt.subplot2grid((6, 1), (5, 0), rowspan=1, colspan=1, sharex=ax1)
+
+    ax1.plot(df.index, df['Adj Close'])
+    ax1.plot(df.index, df['100ma'])
+    ax2.bar(df.index, df['Volume'])
+
+    plt.show()

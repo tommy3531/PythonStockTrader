@@ -51,3 +51,4 @@ Remote data access for pandas, access to data from Robinhood, Alpha Vantage, Eni
 6. Close - Final price of stock when the market closes
 7. Volume - How many shares were traded
 8. Adjusted Close - Stock split
+9. Moving Averages -
