@@ -9,11 +9,25 @@ import os
 from os.path import join, dirname
 from dotenv import load_dotenv
 
-from Stocks.YahooStock import get_yahoo_stock_data
-from Stocks.YahooStockGraph import graph_yahoo_multi_stock
+from Stocks.YahooStock import get_yahoo_stock_data, get_yahoo_single_stock
+from Stocks.YahooStockGraph import graph_yahoo_multi_stock, graph_yahoo_stock_high
 
-data = get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
-graph_yahoo_multi_stock(data)
+# data = get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
+# # print(data)
+# graph_yahoo_multi_stock(data)
+single_data = get_yahoo_single_stock('fb')
+graph_yahoo_stock_high(single_data)
+
+
+
+
+
+
+
+
+
+
+
 
 
 # style.use('ggplot')
