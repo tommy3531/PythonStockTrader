@@ -1,6 +1,6 @@
 # StockTrader
 
-Point of stock trader is to learn about trader stocks and how the stock markets works
+Point of stock trader is to learn about trading stocks and how the stock market works
 
 # Library
 
