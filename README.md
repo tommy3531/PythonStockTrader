@@ -30,3 +30,8 @@ http://docs.enigma.com/public/public_v20_api_about.html
 https://github.com/datawrestler/after-hours
 http://www.zipline.io/
 http://www.bruunisejs.dk/PythonHacks/
+
+
+Key Terms
+Call Options -
+Put Options -

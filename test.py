@@ -9,27 +9,11 @@ import os
 from os.path import join, dirname
 from dotenv import load_dotenv
 
+from Stocks.YahooStock import get_yahoo_stock_data
 
-def import_stock_data(stock1, stock2, stock3):
-    style.use('fivethirtyeight')
-
-    start = dt.datetime(2016, 1, 1)
-    end = dt.datetime(2018, 12, 31)
-    stock_1_data = web.DataReader(stock1, 'yahoo', start, end)
-    stock_2_data = web.DataReader(stock2, 'yahoo', start, end)
-    stock_3_data = web.DataReader(stock3, 'yahoo', start, end)
-
-    multi_df = pd.DataFrame({'stock1': stock_1_data['Adj Close'],
-                             'Stock2': stock_2_data['Adj Close'],
-                             'stock3': stock_3_data['Adj Close']})
-
-    multi_df.plot()
-    plt.legend()
-    plt.show()
+get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
 
 
-fb = 'fb'
-import_stock_data('fb', 'tsla', 'GOOGL')
 # style.use('ggplot')
 # state = dt.datetime(2016, 1, 1)
 # end = dt.datetime(2018, 12, 31)
