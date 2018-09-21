@@ -55,4 +55,3 @@ Remote data access for pandas, access to data from Robinhood, Alpha Vantage, Eni
 7. Volume - How many shares were traded
 8. Adjusted Close - Stock split
 9. Moving Averages - take current prices and prices from x days add them up divide by x days
-10.

@@ -2,7 +2,6 @@ import datetime as dt
 from matplotlib import style
 import pandas_datareader.data as web
 
-
 def get_yahoo_stock_data(stock1, stock2, stock3):
     start = dt.datetime(2016, 1, 1)
     end = dt.datetime.now()
