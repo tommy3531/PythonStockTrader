@@ -18,6 +18,7 @@ Point of stock trader is to learn about trading stocks and how the stock market 
 12. pip install beautifulsoup4
 13. pip install sklearn
 14. pip install pyfin
+15. pip install scrap-ticker-symbols
 
 # Need to install
 1. pip install afterhours

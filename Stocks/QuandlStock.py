@@ -3,7 +3,7 @@ import quandl
 quandl.ApiConfig.api_key = "yUFZbvzHdDKSeaUxZEwx"
 
 
-def get_quandl_equity_prices():
+def get_quandl_stock_data():
     data = quandl.get("WIKI/FB")
     print(data)
 

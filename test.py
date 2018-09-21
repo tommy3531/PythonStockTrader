@@ -16,8 +16,8 @@ warnings.filterwarnings('ignore')
 
 from Stocks.YahooStock import get_yahoo_stock_data, get_yahoo_single_stock, yahoo_moving_average
 from Stocks.YahooStockGraph import graph_yahoo_multi_stock, graph_yahoo_stock_high, graph_yahoo_moving_average, graph_yahoo_candlestick
-from Stocks.QuandlStock import get_quandl_data, get_quandl_ticker
-
+# from Stocks.QuandlStock import get_quandl_data, get_quandl_ticker
+from Stocks.Ticker_Symbols import sp_500_symbols
 # data = get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
 # # print(data)
 # graph_yahoo_multi_stock(data)
@@ -30,7 +30,7 @@ from Stocks.QuandlStock import get_quandl_data, get_quandl_ticker
 
 
 # get_quandl_data()
-get_quandl_ticker()
+# get_quandl_ticker()
 
 
 
@@ -38,7 +38,7 @@ get_quandl_ticker()
 
 
 
-
+sp_500_symbols()
 
 
 
