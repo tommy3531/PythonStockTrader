@@ -4,6 +4,7 @@ from matplotlib import style
 import matplotlib.dates as mdates
 from mpl_finance import candlestick_ohlc
 
+
 def graph_yahoo_multi_stock(dataframe):
     style.use('fivethirtyeight')
 
