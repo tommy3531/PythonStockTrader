@@ -1,0 +1,1 @@
+http://github.com/pydata/pandas-datareader/tarball/master#egg=pandas-datareader-0.2.2

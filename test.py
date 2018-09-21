@@ -8,6 +8,7 @@ import pandas_datareader.data as web
 import os
 from os.path import join, dirname
 # from dotenv import load_dotenv
+from pandas_finance import Equity
 
 
 # silence warnings
@@ -18,6 +19,10 @@ from Stocks.YahooStock import get_yahoo_stock_data, get_yahoo_single_stock, yaho
 from Stocks.YahooStockGraph import graph_yahoo_multi_stock, graph_yahoo_stock_high, graph_yahoo_moving_average, graph_yahoo_candlestick
 # from Stocks.QuandlStock import get_quandl_data, get_quandl_ticker
 from Stocks.Ticker_Symbols import sp_500_symbols
+from Stocks.Nasdaq import get_nasdaq_ticker_symbols
+
+
+
 # data = get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
 # # print(data)
 # graph_yahoo_multi_stock(data)
@@ -32,13 +37,9 @@ from Stocks.Ticker_Symbols import sp_500_symbols
 # get_quandl_data()
 # get_quandl_ticker()
 
+get_nasdaq_ticker_symbols()
 
-
-
-
-
-
-sp_500_symbols()
+# sp_500_symbols()
 
 
 

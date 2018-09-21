@@ -19,10 +19,15 @@ Point of stock trader is to learn about trading stocks and how the stock market 
 13. pip install sklearn
 14. pip install pyfin
 15. pip install scrap-ticker-symbols
+16. pip install wallstreet
+17. pip install alphalens
+18. pip install pandas-finance
 
 # Need to install
 1. pip install afterhours
 2. pip install zipline
+
+
 
 # Doc links
 1. https://github.com/addisonlynch/iexfinance
