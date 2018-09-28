@@ -25,8 +25,8 @@ from Stocks.Nasdaq import get_nasdaq_ticker_symbols
 
 
 
-# data = get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
-# # print(data)
+data = get_yahoo_stock_data('fb', 'tsla', 'GOOGL')
+print(data)
 # graph_yahoo_multi_stock(data)
 # single_data = get_yahoo_single_stock('fb')
 # graph_yahoo_stock_high(single_data)
@@ -39,7 +39,7 @@ from Stocks.Nasdaq import get_nasdaq_ticker_symbols
 # get_quandl_data()
 # get_quandl_ticker()
 
-get_nasdaq_ticker_symbols()
+# get_nasdaq_ticker_symbols()
 
 # sp_500_symbols()
 

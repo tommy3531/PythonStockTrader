@@ -67,7 +67,6 @@ Remote data access for pandas, access to data from Robinhood, Alpha Vantage, Eni
 3. Reinforcement - You have entered the fight and accessing your position. Are you losing men? And you act according
     - markov decision process
 
-
 # Machine Learning Algorithms
 1. Dataset - View as your opponent
 2. Linear Regression - completely taking over your opposition, the point of no return
